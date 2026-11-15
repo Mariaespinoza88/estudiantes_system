@@ -5,7 +5,7 @@ from tkinter import Label, Entry, Button, Tk, messagebox
 class App:
     def __init__(self, ventana):
         self.ventana = ventana
-        self.ventana.title("Gestion de Estudiantes")
+        self.ventana.title("Gestion de Estudiantes-rama")
         self.ventana.geometry("600x600")
         self.ventana.resizable(0,0)
         self.main()
